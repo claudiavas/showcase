@@ -1,0 +1,6 @@
+[submodule "calculadora-react"]
+	path = calculadora-react
+	url = https://github.com/claudiavas/calculadora-react.git
+[submodule "portfolio-dev"]
+	path = portfolio-dev
+	url = https://github.com/claudiavas/portfolio-dev.git
