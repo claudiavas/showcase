@@ -17,7 +17,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
         "service_o7rx2pi",
         "template_btrbnof",
         form.current,
-        "BZ_Xp0ZdZftB3VKp0"
+        "e-_CjflfZNX4F40qB"
       )
       .then(
         (result) => {

@@ -10,6 +10,7 @@ const Header = ({ classicHeader, darkTheme }) => {
   const menuOptions = [
     { text: "Home", path: "/" },
     { text: "About Me", path: "/about" },
+    { text: "My Journey", path: "/journey" },
     { text: "Skills", path: "/skills" },
     { text: "Portfolio", path: "/portfolio" },
     { text: "Contact", path: "/contact" }

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import MobileMenu from "./components/MobileMenu";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
+import Journey from "./components/Journey";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -49,6 +50,7 @@ const AppContent = ({ classicHeader, darkTheme, isLoading }) => {
   const pages = [
     { path: "/", name: "home" },
     { path: "/about", name: "about" },
+    { path: "/journey", name: "journey" },
     { path: "/skills", name: "skills" },
     { path: "/portfolio", name: "portfolio" },
     { path: "/contact", name: "contact" },
@@ -80,6 +82,7 @@ const AppContent = ({ classicHeader, darkTheme, isLoading }) => {
           <Routes>
             <Route path="/" element={<Home classicHeader={classicHeader} darkTheme={darkTheme} />} />
             <Route path="/about" element={<AboutMe classicHeader={classicHeader} darkTheme={darkTheme} />} />
+            <Route path="/journey" element={<Journey classicHeader={classicHeader} darkTheme={darkTheme} />} />
             <Route path="/skills" element={<Skills classicHeader={classicHeader} darkTheme={darkTheme} />} />
             <Route path="/portfolio" element={<Portfolio classicHeader={classicHeader} darkTheme={darkTheme} />} />
             <Route path="/contact" element={<Contact classicHeader={classicHeader} darkTheme={darkTheme} />} />
