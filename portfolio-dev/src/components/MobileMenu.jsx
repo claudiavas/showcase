@@ -9,6 +9,7 @@ const MobileMenu = ({ darkTheme }) => {
   const menuOptions = [
     { text: "Home", path: "/" },
     { text: "About", path: "/about" },
+    { text: "My Journey", path: "/journey" },
     { text: "Skills", path: "/skills" },
     { text: "Portfolio", path: "/portfolio" },
     { text: "Contact", path: "/contact" },

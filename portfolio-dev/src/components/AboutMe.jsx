@@ -1,44 +1,6 @@
 import React from "react";
 
-// import image1 from "../images/about/chapter1.png";
-// import image2 from "../images/about/chapter2.png";
-// import image3 from "../images/about/chapter3.png";
-// import image4 from "../images/about/chapter4.png";
-// import image5 from "../images/about/chapter5.png";
-
 const AboutMe = ({ classicHeader, darkTheme }) => {
-
-
-
-  const chapters = [
-    {
-      src: "/images/about/Chapter1.png",
-      title: "Fearless Beginner",
-      content: "After high school, I completed a year-long programming course. A world full of challenges awaited me!"
-    },
-    {
-      src: "/images/about/Chapter2.png",
-      title: "Academic Adventures",
-      content: "I enrolled in a prestigious university for Business Administration. A journey full of strategy and learning!"
-    },
-    {
-      src: "/images/about/Chapter3.png",
-      title: "The Multifaceted Expert",
-      content: "With over 20 years of experience in Finance and Human Resources, I became a master of multitasking."
-    },
-    {
-      src: "/images/about/Chapter4.png",
-      title: "The Efficient Implementer",
-      content: "During years problem-solving with an IT mindset, I implemented numerous systems."
-    },
-    {
-      src: "/images/about/Chapter5.png",
-      title: "From Code Curious to Full Stack Fan",
-      content: "It's never too late to switch lanes and embrace the full stack life. Join me in my coding adventures!"
-    }
-  ];
-
-
   return (
     <section
       className={"section " + (darkTheme ? "bg-dark-1" : "")}
@@ -79,59 +41,6 @@ const AboutMe = ({ classicHeader, darkTheme }) => {
             I'm a strategic technical lead combining solid experience in business operations with full stack development — uniquely positioned to bridge business strategy with technical execution. Currently architecting CRM ecosystems delivering business impact through AI-powered automation.
           </p>
         </div>
-
-        {/* My Journey Heading */}
-        <div className="text-center mb-5">
-          <p
-            className={
-              "text-9 fw-600 mb-0 " +
-              (darkTheme ? "text-white" : "text-dark")
-            }
-          >
-            My Journey
-            <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
-          </p>
-        </div>
-
-        {/* content start - Journey path */}
-        <div className="col-lg-10 mx-auto" style={{ position: "relative" }}>
-          {chapters.length > 0 &&
-            chapters.map((chapter, index) => (
-              <div
-                key={index}
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "100px 1fr",
-                  gap: "30px",
-                  alignItems: "center",
-                  marginBottom: "35px",
-                  paddingLeft: "0px",
-                  backgroundColor: "transparent"
-                }}
-              >
-                {/* Left: Circle with image - no background */}
-                <div style={{ position: "relative", display: "flex", justifyContent: "center", flexShrink: 0 }}>
-                  <img
-                    className="img-fluid d-inline-block w-auto"
-                    src={chapter.src}
-                    alt=""
-                    style={{ width: "80px", height: "80px", borderRadius: "50%", objectFit: "cover" }}
-                  />
-                </div>
-
-                {/* Right: Title and content */}
-                <div>
-                  <h3 className={"text-3 mb-2 fw-600 " + (darkTheme ? "text-white" : "")}>
-                    {chapter.title}
-                  </h3>
-                  <p className={"text-3 mb-0 " + (darkTheme ? "text-white-50" : "")} style={{ lineHeight: "1.4", color: darkTheme ? "rgba(255, 255, 255, 0.6)" : "#666" }}>
-                    {chapter.content}
-                  </p>
-                </div>
-              </div>
-            ))}
-        </div>
-        {/* content end */}
       </div>
     </section>
   );
