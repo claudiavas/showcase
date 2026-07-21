@@ -17,7 +17,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
         "service_o7rx2pi",
         "template_btrbnof",
         form.current,
-        "e-_CjflfZNX4F40qB"
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
