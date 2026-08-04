@@ -25,11 +25,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       industry: "Web Development",
       date: "July, 2023",
       url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
+        name: "domus-frontend-production-f950.up.railway.app",
+        link: "https://domus-frontend-production-f950.up.railway.app",
       },
       socialLinks: {
-        github: "http://www.facebook.com/",
+        github: "https://github.com/claudiavas",
       },
       thumbImage: "images/projects/project-1.jpg",
       sliderImages: [
