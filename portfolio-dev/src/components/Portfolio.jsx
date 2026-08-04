@@ -31,10 +31,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       socialLinks: {
         github: "https://github.com/claudiavas",
       },
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/projects/domus-desktop.png",
       sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
+        "images/projects/domus-desktop.png",
+        "images/projects/domus-mobile.png",
+        "images/projects/domus-filters.png",
       ],
       categories: [filters.BRAND],
     },
