@@ -19,9 +19,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Domus",
       projectInfo:
-        "Domus is a real estate platform that connects buyers and sellers. It is a full-stack web application that allows users to search for properties, view property details, and contact the seller. The application also allows sellers to list their properties for sale. The application is built using Reactjs, Nodejs, Express, and MongoDB.",
+        "Domus is a real estate platform that connects buyers, sellers and agents. Full-stack web application with property listings, advanced filters powered by real Spanish geographic data (INE), saved search requirements and user profiles. Fully responsive and deployed on Railway.",
       client: "personal",
-      technologies: "HTML5, CSS3, Reactjs, Material UI, Nodejs, Express, MongoDB, SendinBlue, Cloudinary",
+      technologies: "React, Material UI, Node.js, Express, MongoDB, JWT, Railway, Jest + Supertest (integration tests), Playwright (E2E)",
       industry: "Web Development",
       date: "July, 2023",
       url: {
@@ -29,7 +29,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         link: "https://domus-frontend-production-f950.up.railway.app",
       },
       socialLinks: {
-        github: "https://github.com/claudiavas",
+        github: "https://github.com/claudiavas/domus",
       },
       thumbImage: "images/projects/domus-desktop.png",
       sliderImages: [
