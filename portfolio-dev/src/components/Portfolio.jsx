@@ -33,9 +33,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/domus-desktop.png",
       sliderImages: [
-        "images/projects/domus-desktop.png",
+        "images/projects/domus-map.png",
+        "images/projects/domus-dark.png",
         "images/projects/domus-mobile.png",
-        "images/projects/domus-filters.png",
       ],
       categories: [filters.BRAND],
     },
