@@ -1,0 +1,6 @@
+[submodule "Domus"]
+	path = Domus
+	url = https://github.com/claudiavas/domus.git
+[submodule "portfolio-pages"]
+	path = portfolio-pages
+	url = https://github.com/claudiavas/portfolio.git
