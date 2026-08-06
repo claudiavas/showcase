@@ -19,9 +19,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Domus",
       projectInfo:
-        "Domus is a real estate platform that connects buyers, sellers and agents. Full-stack web application with property listings, advanced filters powered by real Spanish geographic data (INE), saved search requirements and user profiles. Fully responsive and deployed on Railway.",
+        "Domus is a real estate platform that connects buyers, sellers and agents. Full-stack web application with property listings, an interactive map (Leaflet), advanced filters powered by real Spanish geographic data (INE), saved searches with relevance scoring, dark mode and a bilingual interface (ES/EN). Fully responsive, tested end to end and deployed on Railway.",
       client: "personal",
-      technologies: "React, Material UI, Node.js, Express, MongoDB, JWT, Railway, Jest + Supertest (integration tests), Playwright (E2E)",
+      technologies: "React, Material UI, Leaflet, i18next (ES/EN), dark mode, Node.js, Express, MongoDB, JWT, Railway, Jest + Supertest, Playwright (E2E)",
       industry: "Web Development",
       date: "July, 2023",
       url: {
