@@ -1,8 +1,8 @@
 # Portfolio en HTML, CSS y JavaScript puro
 
-Portfolio multipágina construido **sin frameworks ni herramientas de build**: solo HTML semántico, CSS escrito a mano y JavaScript vanilla.
+Portfolio multipágina construido **sin frameworks ni herramientas de build**: solo HTML semántico, CSS escrito a mano y JavaScript vanilla. Realizado como trabajo práctico de un curso de CSS avanzado.
 
-Proyecto realizado como parte del curso de **CSS Avanzado de Víctor Robles** ([victorroblesweb.es](https://victorroblesweb.es)). Los datos de contacto que aparecen en las páginas son ficticios, propios del material del curso.
+Todos los datos que aparecen (nombre, fotos, contacto, clientes, testimonios) son ficticios, tipo *Lorem Ipsum*, incluidas las imágenes de avatar y los logos, generados como placeholders.
 
 ## Estructura
 
