@@ -187,6 +187,14 @@
         border-radius: 0%;
         height: 100vh;
     }
+
+    .content__about,
+    .content__resume,
+    .content__portfolio,
+    .content__blog,
+    .content__contact{
+        padding: 6rem 3rem;
+    }
 }
 
 @media (max-width: 800px) {
@@ -228,6 +236,14 @@
 }
 
 @media (max-width: 600px) {
+
+    .content__about,
+    .content__resume,
+    .content__portfolio,
+    .content__blog,
+    .content__contact{
+        padding: 5rem 2rem;
+    }
 
     .layout{
         width: 100%;
